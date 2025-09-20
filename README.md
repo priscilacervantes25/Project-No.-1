@@ -22,7 +22,9 @@ Zalando pretende que Fashion-MNIST sirva como sustituto directo del conjunto de 
 ## 📂 Estructura del Proyecto
 
 ├── Project1.ipynb         # Notebook con el desarrollo completo
+
 ├── README.md              # Documento de explicación y resultados
+
 └── .gitignore              
 
 
