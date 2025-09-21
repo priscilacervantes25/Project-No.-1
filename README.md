@@ -30,30 +30,18 @@ Zalando pretende que Fashion-MNIST sirva como sustituto directo del conjunto de 
 
 ---
 
-## 🔍 Análisis Exploratorio
-
-| Modelo | F1-Score | 
-|------------|-------|
-| RegresióN logística| 0.8461     | 
-| SVM                | 0.8987     | 
-| Random Forest      |      | 
-| Redes Neuronales   | 0.8742     | 
-| CNN                |      | 
-
-
-
-
----
-
 ## 📊 Resultados y evaluación de modelos
 
+| Modelo | Accuracy | F1-Score |
+|------------|-------|-------|
+| Regresión logística|0.8472|0.8461|  
+| SVM                |0.8993|0.8987|
+| Random Forest      |0.8651|0.8627|
+| Redes Neuronales   |0.8740|0.8744|
+| CNN                |0.9019|0.9012|
 
-
-| Modelo  | Valor |
-|-----------|-------|
-|  | |
-
-
----
 
 ## 📌 Conclusiones
+Dado que el dataset se encuentra balanceado, tanto la exactitud como el F1-Score son métricas adecuadas para evaluar el desempeño de los modelos. Los resultados muestran que la CNN obtuvo el mejor rendimiento (Accuracy = 0.9019, F1 = 0.9012).
+
+En conclusión CNN destacó como el modelo más robusto.
